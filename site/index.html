@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex 双测监控站</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Codex 双测监控站</h1>
+  <p class="sub">模型 <code id="model-name">gpt-6-astra</code>（思考强度 medium）· 每 30 分钟一轮 ·
+    <span id="last-updated">暂无数据</span></p>
+</header>
+
+<section id="timeline-section">
+  <h2>测试一 · 逻辑答题「糖果题」— 24 小时检测 Timeline</h2>
+  <div class="stats" id="timeline-stats"></div>
+  <div class="timeline" id="timeline"></div>
+  <div class="legend">
+    <span><i class="dot pass"></i>通过（答案 21）</span>
+    <span><i class="dot fail"></i>未通过 / 无有效答案</span>
+    <span><i class="dot now"></i>最新一轮</span>
+  </div>
+</section>
+
+<section id="gallery-section">
+  <h2>测试二 · HTML 生成「鹈鹕骑行」— 动画预览</h2>
+  <div class="stats" id="gallery-stats"></div>
+  <div class="gallery" id="gallery"></div>
+  <div class="pager" id="pager"></div>
+</section>
+
+<footer>
+  <p>判定方式：测试一取末行「答案：&lt;数字&gt;」与 21 比对；测试二返回可渲染 HTML 即记为已生成，不对画面质量打分。</p>
+</footer>
+
+<script src="../data/data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
