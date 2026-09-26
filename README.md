@@ -9,6 +9,8 @@
 
 ## 网页（site/index.html）
 
+线上地址：<https://haoshendong.github.io/codex-dual-probe/>（GitHub Pages，仓库根路径自动跳转到 `site/`）。每轮测试完成后 `run.sh` 自动提交 `data/` 和 `previews/` 并推送，Pages 随之更新。
+
 - **24 小时检测 Timeline**：测试一最近 24 小时每轮的通过/未通过状态，并统计通过率。
 - **3×6 动画预览**：测试二生成的 HTML 以 iframe 嵌入展示，每页 3 行 × 6 列共 18 个，支持分页。
 - 直接用浏览器打开 `site/index.html` 即可（数据经 `data/data.js` 以 script 方式加载，file:// 协议可用）；也可以在仓库根目录跑 `python3 -m http.server 8000` 后访问 `http://localhost:8000/site/`。
