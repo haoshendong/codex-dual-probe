@@ -6518,6 +6518,25 @@
     "duration_s": 0.0,
     "error": "codex CLI not found"
    }
+  },
+  {
+   "id": "20261003-130002",
+   "ts": "2026-10-03T13:00:02.007610+08:00",
+   "model": "gpt-6-astra",
+   "reasoning_effort": "medium",
+   "test1": {
+    "passed": false,
+    "answer": null,
+    "expected": 21,
+    "duration_s": 0.0,
+    "error": "codex CLI not found"
+   },
+   "test2": {
+    "passed": false,
+    "preview": null,
+    "duration_s": 0.0,
+    "error": "codex CLI not found"
+   }
   }
  ]
 }
