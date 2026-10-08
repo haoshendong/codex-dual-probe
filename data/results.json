@@ -2,25 +2,6 @@
  "version": 1,
  "runs": [
   {
-   "id": "20260928-190001",
-   "ts": "2026-09-28T19:00:01.222199+08:00",
-   "model": "gpt-6-astra",
-   "reasoning_effort": "medium",
-   "test1": {
-    "passed": false,
-    "answer": null,
-    "expected": 21,
-    "duration_s": 0.0,
-    "error": "codex CLI not found"
-   },
-   "test2": {
-    "passed": false,
-    "preview": null,
-    "duration_s": 0.0,
-    "error": "codex CLI not found"
-   }
-  },
-  {
    "id": "20260928-193001",
    "ts": "2026-09-28T19:30:01.519447+08:00",
    "model": "gpt-6-astra",
@@ -9485,6 +9466,25 @@
   {
    "id": "20261009-043001",
    "ts": "2026-10-09T04:30:01.711736+08:00",
+   "model": "gpt-6-astra",
+   "reasoning_effort": "medium",
+   "test1": {
+    "passed": false,
+    "answer": null,
+    "expected": 21,
+    "duration_s": 0.0,
+    "error": "codex CLI not found"
+   },
+   "test2": {
+    "passed": false,
+    "preview": null,
+    "duration_s": 0.0,
+    "error": "codex CLI not found"
+   }
+  },
+  {
+   "id": "20261009-050001",
+   "ts": "2026-10-09T05:00:01.982709+08:00",
    "model": "gpt-6-astra",
    "reasoning_effort": "medium",
    "test1": {
